@@ -5,19 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Rick and Morty</title>
+    <link rel="stylesheet" href="styles.css" />
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
-    <script src="app.js"></script>
-    <link rel="stylesheet" href="styles.css" />
+    <script defer src="app.js"></script>
   </head>
+
   <body>
-    <form>
+    <header id="banner-section">
+      <!-- <img src="" width="1000" height="200" /> -->
+    </header>
+    <main>
+      <h1></h1>
+      <!-- <img src="../../Documents/backgroundimg.png" width="1000" height="200" /> -->
+    </main>
+
+    <form id="container">
       <input type="text" class="title-query" placeholder=" RICK and MORTY" />
-      <input type="submit" name="Submit" />
+      <input type="submit" class="input" name="Submit" />
     </form>
+
     <div class="results"></div>
   </body>
 </html>
