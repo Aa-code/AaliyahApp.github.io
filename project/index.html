@@ -14,20 +14,41 @@
     <script defer src="app.js"></script>
   </head>
 
-  <body>
-    <header id="banner-section">
-      <!-- <img src="" width="1000" height="200" /> -->
-    </header>
-    <main>
-      <h1></h1>
-      <!-- <img src="../../Documents/backgroundimg.png" width="1000" height="200" /> -->
-    </main>
+              <body>
+              <header id="banner-section">
+                        <ul>
+                          <li id="myBtn">About the family</li>
+                          <li>Contact Rick</li>
+                        </ul>
 
-    <form id="container">
-      <input type="text" class="title-query" placeholder=" RICK and MORTY" />
-      <input type="submit" class="input" name="Submit" />
-    </form>
+                        <div id= "myModal" class= "modal">
+                        <div class = "modal-content">
+                        <span class="close">&times;</span>
+                        <p>The Smith Family. The five main family members are Summer, Jerry, Beth, Morty and Rick.
+                            Jerry Smith (Dad) is married to Beth Sanchez (Mom), which after the wedding she took her husband's last name, the couple had two children, named Summer and Morty.
+                            
+                            Rick Sanchez; Beth's father, Jerry's father-in-law, and Summer and Morty's maternal grandfather, currently lives with his daughter's family in The Smith House.</p>
+                          </div>
+                        </div>
 
-    <div class="results"></div>
-  </body>
+              </header>
+
+                   <main>
+                          <h1 class="title">Wubba-lubba-dub-dub</h1>
+
+                          <img class="ship" src=".//theship.jpeg" width="50" />
+                  </main>
+                        
+                    <form id="container">
+                  <input type="text" class="title-query" placeholder=" RICK and MORTY" />
+       <button type="submit" class="title-query" name="Submit">Submit</button>
+                        </form>
+
+                <div class="results">
+                  <div class="card"></div>
+                </div>
+                <!-- <img src="./backgroundimg.png" width="1400" /> -->
+              </div>
+
+            </body>
 </html>
