@@ -58,10 +58,17 @@ $(() => {
     $('#myModal').css('display', 'block');
   });
 
-  $('.close').on('click', event => {
+  $('.close').on('click', () => {
     $('#myModal').css('display', 'none');
   });
 
+  $('#rick').on('click', event => {
+    event.preventDefault();
+    $('#myRick').css('display', 'block');
+  });
+  $('.close2').on('click', () => {
+    $('#myRick').css('display', 'none');
+  });
   // event listener for modal here
 });
 // console.log(endpoint);
